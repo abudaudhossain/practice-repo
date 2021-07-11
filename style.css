@@ -5,26 +5,24 @@
 .items{
     margin: 10px;
     width: 300px;
-    
+    flex-grow: 1;
 }
 .items-1{
-    background: #8d0de9;
-    /* flex-basis: 200px;
-    flex-grow: 1; */
-  
+    background: #8d0de9; 
+    flex-basis: 400px;
 }
 .items-2{
     background: #922bb1;
-    /* flex-grow: 1; */
+    
     
 }
 .items-3{
     background: #ae13eb;
-    /* flex-grow: 1; */
+    
 }
 .items-4{
     background: #904fbe;
-    /* flex-grow: 1; */
+   
 }
 .grow-flex-container {
     border: 10px solid lightslategray;
@@ -57,10 +55,11 @@
 }
 .shrink-items-1{
     background: #8d0de9;
+    flex-shrink: 1;
 }
 .shrink-items-2{
     background: #922bb1;
-    flex-shrink: 122px;
+    flex-shrink: 3;
 }
 .shrink-items-3{
     background: #ae13eb;
