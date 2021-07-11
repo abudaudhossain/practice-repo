@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid CSS3</title>
+    <style>
+        .grid-container{
+            border:5px solid grey;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr) ;
+            grid-gap: 15px;
+            padding: 20px;
+            /* grid-template-rows: repeat( 5, 200px); */
+            
+        
+         }
+         .grid-items{
+             border: 2px dashed goldenrod;
+             background:gray;
+            height: 200px;
+            border-radius: 10px;
+
+         }
+         .grid-items:hover{
+            box-shadow: 4px 3px 10px black;
+         }
+         @media (max-width:800px) {
+            .grid-container{
+                 grid-template-columns: repeat(2, 1fr);
+                 background: red;
+             }
+         }
+         @media (max-width:500px) {
+            .grid-container{
+                 grid-template-columns: repeat(1, 1fr);
+                 background: red;
+             }
+         }
+    </style>
+</head>
+<body>
+    <h1>Here play game Grid with me</h1>
+    <div class="grid-container">
+        <div class="grid-items item-1">
+            <h4>item-1</h4>
+            
+        </div>
+        
+        <div class="grid-items item-2">
+            <h4>item-2</h4>
+        </div>
+        <div class="grid-items item-3">
+            <h4>item-3</h4>
+        </div>
+        <div class="grid-items item-4">
+            <h4>item-4</h4>
+        </div>
+        <div class="grid-items item-5">
+            <h4>item-5</h4>
+        </div>
+        <div class="grid-items item-6">
+            <h4>item-6</h4>
+        </div>
+        <div class="grid-items item-7">
+            <h4>item-7</h4>
+        </div>
+        <div class="grid-items item-8">
+            <h4>item-8</h4>
+        </div>
+        <div class="grid-items item-9">
+            <h4>item-9</h4>
+        </div>
+        <div class="grid-items item-10">
+            <h4>item-10</h4>
+        </div>
+        <div class="grid-items item-11">
+            <h4>item-11</h4>
+        </div>
+        <div class="grid-items item-12">
+            <h4>item-12</h4>
+        </div>
+        <div class="grid-items item-13">
+            <h4>item-13</h4>
+        </div>
+        <div class="grid-items item-14">
+            <h4>item-14</h4>
+        </div>
+        <div class="grid-items item-15">
+            <h4>item-15</h4>
+        </div>
+        <div class="grid-items item-16">
+            <h4>item-16</h4>
+        </div>
+        <div class="grid-items item-17">
+            <h4>item-17</h4>
+        </div>
+        <div class="grid-items item-18">
+            <h4>item-18</h4>
+        </div>
+        <div class="grid-items item-19">
+            <h4>item-19</h4>
+        </div>
+        <div class="grid-items item-20">
+            <h4>item-20</h4>
+        </div>
+        <div class="grid-items item-21">
+            <h4>item-21</h4>
+        </div>
+        <div class="grid-items item-22">
+            <h4>item-22</h4>
+        </div>
+        <div class="grid-items item-23">
+            <h4>item-23</h4>
+        </div>
+        <div class="grid-items item-24">
+            <h4>item-24</h4>
+        </div>
+    </div>
+
+</body>
+</html>

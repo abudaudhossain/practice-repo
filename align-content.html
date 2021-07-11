@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Align content</title>
+    <style>
+        .container{
+            border: 3px solid lightcoral;
+            height: 600px;
+            display:flex;
+            flex-flow: row wrap;
+            align-content: space-between;
+        }
+        .box{
+            width:100px;
+            height:100px;
+            background: rgb(70, 209, 167);
+            border: 6px solid dimgray;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Align content items</h1>
+    <div class="container">
+        <div class="box">
+            <h4>box-1</h4>
+        </div>
+        <div class="box">
+            <h4>box-2</h4>
+        </div>
+        <div class="box">
+            <h4>box-3</h4>
+        </div>
+        <div class="box">
+            <h4>box-4</h4>
+        </div>
+        <div class="box">
+            <h4>box-5</h4>
+        </div>
+    </div>
+</body>
+</html>
